@@ -1,5 +1,5 @@
 {
-  "name": "node_study_v002",
+  "name": "typescript_study_v002",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "mime": "^3.0.0",
-    "typescript": "^5.2.2"
-  }
+  "license": "ISC"
 }

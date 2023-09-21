@@ -15,6 +15,7 @@ var server = http.createServer(function(request,response){
                 response.writeHead(500, {'Content-Type':'text/html'});
                 response.end('500 Internal Server Error : '+error);
                 // 2.2 아무런 오류가 없이 정상적으로 읽기가 완료되면 파일의 내용을 클라이언트에 전달
+            }else{
                 response.writeHead(200, {'Content-Type':'text/html'});
                 response.end(data);
             }
